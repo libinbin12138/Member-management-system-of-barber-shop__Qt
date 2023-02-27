@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Show_Temp_customer_Consume_Sum</class>
+ <widget class="QMainWindow" name="Show_Temp_customer_Consume_Sum">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>85</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="date">
+     <date>
+      <year>2001</year>
+      <month>1</month>
+      <day>1</day>
+     </date>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>请选择要查找的日期</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>175</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="displayFormat">
+     <string>yyyy/M</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>255</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="displayFormat">
+     <string>yyyy</string>
+    </property>
+    <property name="currentSectionIndex">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>85</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查找该天</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>175</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查找该月</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>255</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查找该年</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="qTableWidget">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>81</y>
+      <width>431</width>
+      <height>241</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
